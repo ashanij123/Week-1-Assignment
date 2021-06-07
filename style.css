@@ -1,0 +1,17 @@
+.section1{
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: black;
+}
+h1{
+    color: blanchedalmond;
+}
+img{
+    display: flex;
+    justify-content: space-between;
+}
+figcaption{
+    color: white;
+}
