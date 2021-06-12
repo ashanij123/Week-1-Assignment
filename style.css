@@ -8,10 +8,31 @@ body {
 h1{
     color: blanchedalmond;
 }
-img{
-    display: flex;
-    justify-content: space-between;
-}
-figcaption{
+h2{
     color: white;
+}
+.tags{
+    color:pink;
+
+}
+.tags:hover{
+    box-shadow: 0 24px 32px 0 rgba(255, 255, 255, 0.19), 0 34px 100px 0 rgba(255, 255, 254, 0.19);;
+}
+#movies-area{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hidden{
+    display: none;
+}
+.words{
+    text-align: center;
+    width: 150px; 
+    word-wrap: break-word;
+    color:whitesmoke;
+}
+form{
+    color: white
 }
